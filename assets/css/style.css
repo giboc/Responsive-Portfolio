@@ -158,3 +158,49 @@ html{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+/* responsive styling */
+
+@media screen and (max-width: 640px){
+    .main{
+        width: 80%;
+        
+        
+        
+    }
+    
+    .nav_bar{
+        width: 100%;
+    }
+    .nav_bar ul{
+        width: 250px;
+        height: 50px;
+        margin: auto;
+        
+    }
+    .nav_bar li{
+        text-align: center;
+        border-right: #cccccc;
+        border-left: #cccccc;
+        border-style: solid;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        line-height: 5px;
+    }
+    
+    img{
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        
+    }
+
+    h1{
+        
+        float: none;
+        text-align: center;
+
+    }
+}
