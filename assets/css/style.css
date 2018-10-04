@@ -161,13 +161,10 @@ html{
 
 
 /* responsive styling */
-
+/* For tiny displays 640px*/
 @media screen and (max-width: 640px){
     .main{
         width: 80%;
-        
-        
-        
     }
     
     .nav_bar{
@@ -177,16 +174,6 @@ html{
         width: 50%;
         height: 50px;
         margin: auto;
-        
-    }
-    .nav_bar li{
-        text-align: center;
-        border-right: #cccccc;
-        border-left: #cccccc;
-        border-style: solid;
-        border-right-width: 1px;
-        border-left-width: 1px;
-        line-height: 5px;
     }
     
     img{
@@ -194,7 +181,6 @@ html{
         display: block;
         margin: auto;
         margin-bottom: 10px;
-        
     }
 
     h1{
@@ -209,4 +195,24 @@ html{
         margin: auto;
         margin-bottom: 20px;
     }
+}
+/* For slightly bigger displays such as tablets (768px) */
+@media screen and (max-width: 768px){
+    .main{
+        width: 500px;
+    }
+    .nav_bar ul{
+        position: absolute;
+        right: 0;
+    }
+
+    .nav_bar{
+        width: 500px;   
+    }
+
+    h1{
+        padding : 10px;
+        margin-left: -10px;
+    }
+    
 }
