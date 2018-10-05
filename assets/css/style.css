@@ -161,7 +161,48 @@ html{
 
 
 /* responsive styling */
-/* For tiny displays 640px*/
+/*For displays between 980px and 769px*/
+@media screen and (max-width: 980px) and (min-width: 769px){
+    .main{
+        position: relative;
+        left: 0;
+        margin: 20px;
+        width: 500px;
+    }
+    .nav_bar ul{
+        position: absolute;
+        right: 0;
+    }
+    .nav_bar{
+        width: 700px;
+        
+        margin-left: 20px;
+
+    }
+}
+
+/* For displays between 641px and 768px */
+@media screen and (max-width: 768px) and (min-width: 641px){
+    .main{
+        width: 500px;
+    }
+    .nav_bar ul{
+        position: absolute;
+        right: 0;
+    }
+
+    .nav_bar{
+        width: 500px;   
+    }
+
+    h1{
+        padding : 10px;
+        margin-left: -10px;
+    }
+    
+}
+
+/* For displays 640px and lower.*/
 @media screen and (max-width: 640px){
     .main{
         width: 80%;
@@ -182,9 +223,12 @@ html{
         margin: auto;
         margin-bottom: 10px;
     }
+    .header{
+        width: 100%;
 
+    }
     h1{
-        
+        width: 100%;
         float: none;
         text-align: center;
 
@@ -195,24 +239,4 @@ html{
         margin: auto;
         margin-bottom: 20px;
     }
-}
-/* For slightly bigger displays such as tablets (768px) */
-@media screen and (max-width: 768px){
-    .main{
-        width: 500px;
-    }
-    .nav_bar ul{
-        position: absolute;
-        right: 0;
-    }
-
-    .nav_bar{
-        width: 500px;   
-    }
-
-    h1{
-        padding : 10px;
-        margin-left: -10px;
-    }
-    
 }
