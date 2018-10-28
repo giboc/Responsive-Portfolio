@@ -147,6 +147,11 @@ html{
     float: left;
 }
 
+.portfolio_img{
+    width: 200px;
+    height: 200px;
+}
+
 .img_text{
     position: absolute;
     bottom: 0px;
